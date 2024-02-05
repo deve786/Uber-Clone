@@ -37,6 +37,24 @@
     overflow: hidden !important;
     text-overflow: ellipsis !important;/* Ensures the placeholder text inherits the input's font size */
 }
+
+.carousel-control-next,.carousel-control-prev{
+    
+    color: rgba(148, 148, 152, 0.307) !important;
+    font-size: 40px;
+    
+}
+.carousel-control-prev{
+    
+    left: -40px !important;
+    
+}
+.carousel-control-next{
+    
+    right: -40px !important;
+    
+}
+
 @media (max-width:650px) {
     .carousel-item img{
         width: 100%;
@@ -46,7 +64,21 @@
     #carouselExampleIndicators{
         width: 100% !important;
     }
+    
+    
     .head{
         font-size: 25px !important;
     }
+}
+@media (max-width:1000px){
+    .carousel-indicators{
+        top: 220px !important;
+    }
+}
+@media (min-width:650px) {
+    
+    .carousel-indicators{
+        top: 500px !important;
+    }
+    
 }
