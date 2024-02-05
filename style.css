@@ -11,9 +11,7 @@
     font-size: 15px;
     color: white;
 }
-.head{
-    font-size: 3vw
-}
+
 ::placeholder{
     font-size: 15px !important;
     
@@ -38,4 +36,17 @@
     
     overflow: hidden !important;
     text-overflow: ellipsis !important;/* Ensures the placeholder text inherits the input's font size */
+}
+@media (max-width:650px) {
+    .carousel-item img{
+        width: 100%;
+        height: 30vh;
+        
+    }
+    #carouselExampleIndicators{
+        width: 100% !important;
+    }
+    .head{
+        font-size: 25px !important;
+    }
 }
