@@ -1,5 +1,37 @@
-*{
-    box-sizing: border-box;
+@import url('https://fonts.cdnfonts.com/css/uber-move-text');
+
+* {
+    font-family: 'Uber Move Text', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-color: black;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+.nav-link{
+    margin-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.nav-link:hover{
+    color: black !important;
+    border-radius: 20px;
+    
+    
+    background-color: rgb(84, 84, 84);
+}
+.nav-link:focus{
+    color: black !important;
+    border-radius: 20px;
+    background-color: rgb(84, 84, 84);
+}
+.dropdown-menu{
+    margin-top: 10px !important;
 }
 .carousel-item img{
     width: 100%;
