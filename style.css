@@ -112,11 +112,14 @@
     .carousel-indicators{
         top: 500px !important;
     }
-    
+    .caption{
+        font-size:20px !important
+    }
 }
 
+
 .carousel-caption{
-    bottom:2.7rem !important
+    bottom:3.5rem !important
 }
 
 /* .carousel-caption {
