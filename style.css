@@ -173,3 +173,35 @@
         margin-top: 2% !important;
     }
 }
+.fa-lg{
+    font-size: 2em !important;
+}
+.bg{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(125, 153, 230);
+    font-size: 1.4em !important;
+}
+
+/* .fa-envelope{
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    top: -10%;
+    font-size: 3em;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 50%;
+} */
+
+.feed_btn{
+    padding:1% 1.2% !important;
+    border-radius: 50% !important;
+    font-size: 1.2em !important;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+}
