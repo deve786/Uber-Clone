@@ -125,3 +125,51 @@
 /* .carousel-caption {
     bottom:2.rem !important
 } */
+
+
+
+
+
+/* Modal */
+.modal-content{
+    background-color: rgb(66, 70, 70) !important;
+}
+.modal-content p{
+    color: white !important;
+}
+
+.modal-content h1{
+    color: rgb(88, 126, 231) !important;
+}
+.input_box{
+    min-height: 0vh !important;
+    padding: 4px !important;
+    outline: none;
+    
+}
+.modal-content{
+    border-radius: 20px !important;
+}
+.sub_btn{
+    text-transform: uppercase;
+}
+#p_span{
+    color: rgb(156, 153, 151) !important;
+    
+}
+.modal-dialog{
+    width: 40% !important;
+}
+
+
+@media (max-width:1000px) {
+    .modal-dialog{
+        width: 95% !important;
+    }
+}
+
+@media (max-width:476px) {
+    .sub_btn{
+        margin-top: 2% !important;
+    }
+}
