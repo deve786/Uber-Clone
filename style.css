@@ -289,3 +289,21 @@
         margin-top: 5px !important;
     }
 }
+
+.section_card:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(1.01);
+    transition: 0.4s;
+}
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(1.01);
+    transition: 0.4s;
+}
+.section2{
+    background-color: #F6F6F6;
+}
