@@ -292,11 +292,11 @@
 
 .section_card{
     
-    transition: 0.4s;
+    transition: 1s;
 }
 .section_card:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    transform: scale(1.01);
+    transform: scale(1.03);
    
 }
 .card{
@@ -306,7 +306,7 @@
 
 .card:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    transform: scale(1.01);
+    transform: scale(1.03);
     
 }
 .section2{
