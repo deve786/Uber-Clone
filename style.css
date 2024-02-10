@@ -312,3 +312,55 @@
 .section2{
     background-color: #F6F6F6;
 }
+
+
+
+.nav-link{
+    border-radius: 0px !important;
+    color: black !important;
+}
+.nav-link:focus {
+ background-color: rgba(0, 0, 0, 0.304) !important;
+ color: white !important;
+ 
+}
+
+.nav-link:hover {
+ background-color: transparent;
+}
+
+@media (max-width:320px) {
+    .nav-item{
+        width: 33%;
+    }
+}
+
+.sect{
+    background-color:#F6F6F6;
+    margin-top: 1.5em;
+}
+
+
+
+
+
+.accord_span{
+    width: fit-content;
+}
+.accordion{
+    --bs-accordion-active-bg: transparent !important;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(11, 23, 41, 0) !important;
+}
+
+.faq{
+    background-color: #F6F6F6;
+}
+
+
+.app{
+    background-color: #F6F6F6;
+}
+
+.footer{
+    margin: 0 !important;
+}
