@@ -4,6 +4,8 @@
     font-family: 'Uber Move Text', sans-serif;
 }
 
+
+
 .hero {
     height: 100vh;
     background-color: black;
@@ -341,7 +343,12 @@
 }
 
 
-
+.goTop{
+    position: fixed !important;
+    bottom: 5px;
+    right: 10px;
+    
+}
 
 .accord_span{
     width: fit-content;
