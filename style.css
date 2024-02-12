@@ -5,11 +5,7 @@
 }
 
 
-
-.hero {
-    height: 100vh;
-    background-color: black;
-}
+/* Navbar */
 
 .dropdown-toggle::after {
     display: none !important;
@@ -39,7 +35,10 @@
 .dropdown-menu {
     margin-top: 10px !important;
 }
+/*------------------------- Navbar End---------------*/
 
+
+/*--------------------------- Hero Section -----------*/
 .carousel-item img {
     width: 100%;
     height: 80vh;
@@ -56,21 +55,16 @@
 
 }
 
-
 .input-container {
     position: relative;
 
 }
 
-
-
 .icon {
     position: absolute;
     right: 10px;
-   
     top: 50%;
     transform: translateY(-50%);
-    
 }
 
 ::placeholder {
@@ -104,30 +98,21 @@
     .carousel-item img {
         width: 100%;
         height: 30vh;
-
     }
 
     #carouselExampleIndicators {
         width: 100% !important;
     }
 
-
     .head {
         font-size: 25px !important;
     }
 }
 
-@media (max-width:1000px) {
-    /* .carousel-indicators{
-        top: 220px !important;
-    } */
-}
 
 @media (min-width:650px) {
 
-    /* .carousel-indicators{
-        top: 500px !important;
-    } */
+    
     .caption {
         font-size: 20px !important
     }
@@ -138,15 +123,12 @@
     bottom: 3.5rem !important
 }
 
-/* .carousel-caption {
-    bottom:2.rem !important
-} */
+/* ---------------------------Hero Section End --------------------------- */
 
 
 
 
-
-/* Modal */
+/* ---------------------------Modal--------------------------- */
 .modal-content {
     background-color: rgb(66, 70, 70) !important;
 }
@@ -200,23 +182,9 @@
     font-size: 2em !important;
 }
 
-.bg {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    color: rgb(125, 153, 230);
-    font-size: 1.4em !important;
-}
 
-/* .fa-envelope{
-    position: absolute;
-    text-align: center;
-    left: 40%;
-    top: -10%;
-    font-size: 3em;
-    background-color: blue;
-    padding: 20px;
-    border-radius: 50%;
-} */
+
+
 
 .feed_btn {
     padding: 1% 1.2% !important;
@@ -230,11 +198,19 @@
     border: none !important;
 }
 
+/* ---------------------------Modal End --------------------------- */
 
+/* ---------------------------Section 1 --------------------------- */
+.bg {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(125, 153, 230);
+    font-size: 1.4em !important;
+}
 
 
 .span_sect {
-    /* border-bottom: 2px solid black; */
+    
     cursor: pointer;
     color: inherit;
     text-decoration: none;
@@ -252,16 +228,7 @@
     transition: background-size 700ms;
 }
 
-/* 
-.span_sect::after{
-    padding-bottom: 0.2rem;
-    content: "";
-    display: block;
-    height: 1.1500000000000004rem ;
-    background-image: linear-gradient( transparent calc(100% - 1px), #9f1515 1px ), linear-gradient( transparent calc(100% - 1px), #cd0808 1px );
-    transform: scaleX(0) !important;
-    transition: transform .3s;
-} */
+
 
 .span_sect:hover {
     background-size: 0 2px, 100% 2px;
@@ -311,12 +278,10 @@
     transform: scale(1.03);
     
 }
-.section2{
-    background-color: #F6F6F6;
-}
+/* ---------------------------Section1 End--------------------------- */
 
 
-
+/* ---------------------------Card Section --------------------------- */
 .navlink{
     border-radius: 0px !important;
     color: black !important;
@@ -341,15 +306,33 @@
     background-color:#F6F6F6;
     margin-top: 1.5em;
 }
+/* ---------------------------Card Section End--------------------------- */
 
-
+/* --------------------------- Go to Top --------------------------- */
 .goTop{
     position: fixed !important;
     bottom: 5px;
     right: 10px;
+    ;
+}
+.top_span{
+    display: none;
+}
+.goTop:hover .top_span{
+    transition: 0.5s !important;
+    display: inline;
     
 }
+.goTop:hover {
+    
+    background-color: rgba(234, 237, 239, 0.775) !important;
+    
+}
+/* --------------------------- Go to Top End--------------------------- */
 
+
+
+/* --------------------------- FAQ --------------------------- */
 .accord_span{
     width: fit-content;
 }
@@ -361,8 +344,10 @@
 .faq{
     background-color: #F6F6F6;
 }
+/* --------------------------- FAQ End --------------------------- */
 
 
+/* --------------------------- App Section --------------------------- */
 .app{
     background-color: #F6F6F6;
     cursor: pointer;
@@ -372,6 +357,11 @@
    transform: translateX(10px);
    transition: 0.6s;
 }
+
+/* --------------------------- App Section End --------------------------- */
+
+
+/* --------------------------- Footer --------------------------- */
 .footer{
     margin: 0 !important;
 }
@@ -415,4 +405,119 @@
 
 .footer_loc,.footer_lan:hover{
     cursor: pointer;
+}
+/* --------------------------- Footer End --------------------------- */
+
+
+.feed_btn {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+
+
+
+  .tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
 }
