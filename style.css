@@ -313,7 +313,8 @@
     position: fixed !important;
     bottom: 5px;
     right: 10px;
-    ;
+    z-index: 999;
+    
 }
 .top_span{
     display: none;
